@@ -3,3 +3,7 @@
 *.a
 replay/*
 /profile.dat
+
+.retrom-build/
+release/
+__pycache__/

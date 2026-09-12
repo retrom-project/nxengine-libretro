@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "forkRepository": "https://github.com/retrom-project/nxengine-libretro",
+  "defaultBranch": "retrom/gfd1c0686f8b4",
+  "upstreamMirrorBranch": "master",
+  "upstreams": [
+    {
+      "role": "engine",
+      "repository": "https://github.com/libretro/nxengine-libretro",
+      "refType": "COMMIT",
+      "ref": "fd1c0686f8b4c0aea9b5addbc077e3ad7da23bb7",
+      "commit": "fd1c0686f8b4c0aea9b5addbc077e3ad7da23bb7"
+    }
+  ],
+  "releaseTagPattern": "^retrom-core-gfd1c0686f8b4-r[1-9][0-9]*(-rc\\.[1-9][0-9]*)?$",
+  "adapterAbi": "nxengine-host-v1",
+  "releaseAssets": [
+    "nxengine-retrom.mjs",
+    "nxengine-retrom.wasm",
+    "LICENSES.txt",
+    "rpg-runtime-release.json"
+  ]
+}
